@@ -8,7 +8,7 @@ const Counter = () => {
 
   const dispatch=useDispatch()
   return (
-    <div className="App">
+    <div className="app">
       <h2 className="counter-header">Counter With Redux</h2>
       <h2>{sayac}</h2>
       <h2>{text} </h2>

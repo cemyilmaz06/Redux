@@ -3,8 +3,8 @@ export const arttir=()=>({
     type: "ARTTIR", payload: "ARTTIRILDI"
 })
 export const sifirla=()=>({
-    type: "ARTTIR", payload: "SIFIRLANDI"
+    type: "SİFİRLA", payload: "SIFIRLANDI"
 })
 export const azalt=()=>({
-    type: "ARTTIR", payload: "AZALTILDI"
+    type: "AZALT", payload: "AZALTILDI"
 })
