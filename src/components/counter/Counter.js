@@ -1,8 +1,10 @@
 import React from "react";
 import "./Counter.css"
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { arttir, azalt, sifirla } from "../../redux/actions/counterActions";
 const Counter = () => {
 
+  const { text, sayac } = useSelector((state) => state.counterReducer);
 
   const dispatch=useDispatch()
   return (
