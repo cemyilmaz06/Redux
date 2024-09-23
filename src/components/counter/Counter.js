@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Counter = () => {
   return (
-    <div>Counter</div>
-  )
-}
+    <div className="App">
+      <h2 className="counter-header">Counter With Redux</h2>
+    </div>
+  );
+};
 
-export default Counter
+export default Counter;
