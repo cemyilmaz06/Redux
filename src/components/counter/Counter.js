@@ -1,9 +1,20 @@
 import React from "react";
-
+import "./Counter.css"
+import { useDispatch } from "react-redux";
 const Counter = () => {
+
+
+  const dispatch=useDispatch()
   return (
     <div className="App">
       <h2 className="counter-header">Counter With Redux</h2>
+      <h2>{sayac}</h2>
+      <h2>{text} </h2>
+      <div>
+        <button className="counter-button positive" onClick={()=>dispatch(arttir())}>ARTTIR</button>
+        <button className="counter-button "onClick={()=>dispatch(sifirla())}>RESET</button>
+        <button className="counter-button negative"onClick={()=>dispatch(azalt())}>AZALT</button>
+      </div>
     </div>
   );
 };
